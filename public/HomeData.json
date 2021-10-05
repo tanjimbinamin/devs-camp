@@ -1,0 +1,31 @@
+[
+    {
+        "id":1,
+        "courseTitle":"Master The Flutter-2021",
+        "image":"https://img-c.udemycdn.com/course/240x135/2875854_ee99_4.jpg",
+        "price":199,
+        "instructor":"David James"
+    },
+    {
+        "id":2,
+        "courseTitle":"MERN Stack Full Ecommerce Site - Using React, Redux, Node.js",
+        "image":"https://img-c.udemycdn.com/course/240x135/3678044_4cd0.jpg",
+        "price":199,
+        "instructor":"Gulam Abbas"
+    },
+    {
+        "id":3,
+        "courseTitle":"Ultimate AWS Certified Solutions Architect Associate 2021",
+        "image":"https://img-c.udemycdn.com/course/240x135/2196488_8fc7_7.jpg",
+        "price":199,
+        "instructor":"Redcliff"
+    },
+    {
+        "id":4,
+        "courseTitle":"Modern React with Redux",
+        "image":"https://img-c.udemycdn.com/course/240x135/705264_caa9_11.jpg",
+        "price":199,
+        "instructor":"Stephen Grider"
+    }
+   
+]
