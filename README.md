@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Getting Started with the website
 
 The livesite link is here [Click here](https://tanjimbinamin-assignment-9.netlify.app).
 
-## Available Scripts
+## Project Introduction
 
-In the project directory, you can run:
+This is a fully responsive website which provides enrollment of different development programs. 
+In this website, routing is also included to ease the interface. 
 
-### `npm start`
+## Components used in this react based website
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Components_Image](https://i.ibb.co/QXCffQX/Screenshot-2021-10-05-232852.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### `Header`
 
-### `npm test`
+The Header component is declared to set the navigation. In this component , the link route is declared to navigate the exact destination for the visitors
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### `Footer`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Footer component is declared to show the extra utilities of this website and eventually the visitor would mark this as a ui friendly.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `Hero`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+After we setup our header part , the hero section is declared. In this component we used a background image for the ui and two different section which were made responsive by react-bootstrap grid system. A carousel was also used in this hero section to view our development programs
+### `Cards`
 
-### `npm run eject`
+we declared our learning programs on cards to show them easily in case learners can grab them easily
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### `Contact`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+In this component, a contact form is declared to get information of the visitors.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### `Services`
 
-## Learn More
+This section is used to show the full development programs using react-bootstrap card. 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# React-Router
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+React-Router is declared to ease the navigation.Visitors can easily navigate through the desired pages .As a result , react-virtual-dom will render the exact page which would be called by clicking the navlink.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![React_Router](https://i.ibb.co/Nr0jys4/Uploaded-using-Ray-This-Extension.png)
 
-### Analyzing the Bundle Size
+# React-Bootstrap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+react bootstrap components were used to show some cards. 
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Local Storage
+two local storage has been created to fetch the data for showing them on reac-bootstrap-cards component . 

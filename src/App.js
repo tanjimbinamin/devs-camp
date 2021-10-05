@@ -26,20 +26,20 @@ function App() {
               <Hero></Hero>
               <Cards></Cards>
           </Route>
-          <Route path="/home">
+          <Route exact path="/home">
               <Hero></Hero>
               <Cards></Cards>
           </Route>
-          <Route path="/services">
+          <Route exact path="/services">
             <Services></Services>
           </Route>
-          <Route path="/about">
+          <Route exact path="/about">
             <About></About>
           </Route>
-          <Route path="/contact">
+          <Route exact path="/contact">
             <Contact></Contact>
           </Route>
-          <Route path="*">
+          <Route exact path="*">
             <Error></Error>
           </Route>
         </Switch>

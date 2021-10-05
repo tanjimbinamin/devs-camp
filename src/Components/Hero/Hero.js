@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="bg-image">
             <Container>
             <Row >
-                <Col xs={10} md={6} className="mt-5 hero1 pt-5"><h1 className="fonts pe-5 text-white "><strong>We Provide the Best Course to become</strong></h1>
+                <Col xs={10} md={6} className="mt-5 hero1 pt-5"><h1 className="fonts pe-5 text-dark "><strong>We Provide the Best Course to become</strong></h1>
                     <br/>
                     <h2 className="fonts"><span style={{color:"coral"}}>a successful developer</span></h2></Col>
                 <Col xs={12} md={6} className="mt-5 pt-5" >
