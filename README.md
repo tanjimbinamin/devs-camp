@@ -1,6 +1,6 @@
 # Getting Started with the website
 
-The livesite link is here [Click here](https://tanjimbinamin-assignment-9.netlify.app).
+The livesite link is here [Click here](https://devs-camp.netlify.app).
 
 ## Project Introduction
 
